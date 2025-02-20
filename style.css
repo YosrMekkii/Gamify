@@ -1,0 +1,173 @@
+/* Styles généraux */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+/* Barre de navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #2a2a2a;
+}
+.banner {
+    position: relative;
+    background: url('background.jpg') no-repeat center center/cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.banner-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.play-button {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-bar {
+    width: 60%;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    padding: 10px;
+    background: #d0d9cc;
+    border-radius: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login {
+    font-size: 16px;
+}
+
+/* Section principale */
+.hero {
+    height: 300px;
+    background: url('images/background.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Section des jeux */
+.games-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre les cartes horizontalement */
+    gap: 20px;
+}
+
+.game-card {
+    display: flex;
+    flex-direction: row; /* L'image à gauche et la description à droite */
+    align-items: center; /* Aligne l'image et la description au centre verticalement */
+    background: #333;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+    gap: 20px;
+}
+
+.game-card img {
+    width: 40%; /* Taille de l'image */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.game-info {
+    flex: 1;
+    text-align: left; /* Alignement du texte à gauche */
+}
+
+.game-info h3 {
+    margin: 0 0 10px;
+}
+
+.game-info p {
+    margin: 0 0 10px;
+    font-size: 0.9em;
+}
+
+.game-info button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px; /* Espacement entre la description et le bouton */
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    margin-top: 30px;
+}
