@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBG Leaderboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-[#263238] text-white font-sans m-0 p-0 flex flex-col min-h-screen">
+    <!-- Responsive Navigation Bar -->
+    <nav class="bg-gray-100 shadow-sm p-4">
+        <div class="container mx-auto flex justify-between items-center">
+          <div class="flex items-center">
+            <img src="./images/logo.png" alt="Logo" class="w-10 h-10 object-cover">
+          </div>
+          
+          
+          <div class="hidden md:flex space-x-1">
+            <a href="#" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300 transition duration-300">Bibliothèque</a>
+            <a href="#" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200 transition duration-300">Communauté</a>
+            <a href="#" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200 transition duration-300">Recompense</a>
+            <a href="#" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200 transition duration-300">Promotion</a>
+            <a href="#" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300 transition duration-300">Assistance</a>
+          </div>
+          
+          <div class="flex items-center space-x-4">
+            <div class="hidden md:flex">
+              <a href="#" class="text-gray-800 hover:text-gray-600">Se connecter</a>
+            </div>
+            <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+              </svg>
+            </div>
+          </div>
+          
+          <div class="md:hidden">
+            <button class="focus:outline-none">
+              <svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        
+        <div class="hidden md:hidden bg-white p-4 mt-2 rounded-lg shadow">
+          <div class="flex flex-col space-y-2">
+            <a href="#" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300">Bibliothèque</a>
+            <a href="#" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200">Communauté</a>
+            <a href="Achievements.html" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200">Recompense</a>
+            <a href="#" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200">Promotion</a>
+            <a href="#" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300">Assistance</a>
+            <a href="#" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200">Se connecter</a>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+      <div class="w-[1460px] h-[2347px] relative bg-[#263238]  overflow-hidden">
+        <div class="w-[445px] h-[42px] left-[93px] top-[953.50px] absolute text-white text-[25px] font-black font-['Inter'] [text-shadow:_0px_4px_4px_rgb(0_0_0_/_0.25)]">5 new guides this week</div>
+        <div class="w-[173px] h-[42px] left-[176px] top-[1101px] absolute text-white text-[28px] font-bold font-['Roboto'] [text-shadow:_0px_4px_4px_rgb(0_0_0_/_0.25)]">Popular Hubs</div>
+        <div class="w-[218px] h-[42px] left-[217px] top-[1201px] absolute text-white text-[22px] font-medium font-['Roboto'] [text-shadow:_0px_4px_4px_rgb(0_0_0_/_0.25)]">Casual Gaming</div>
+        <div class="h-10 left-[93px] top-[386.50px] absolute flex-col justify-start items-start gap-2 inline-flex">
+          <div class="self-stretch px-4 py-3 bg-white rounded-lg border border-[#d9d9d9] justify-start items-center inline-flex overflow-hidden">
+            <div class="grow shrink basis-0 text-[#757575] text-base font-normal font-['Inter'] leading-none">recherche ...</div>
+          </div>
+        </div>
+        <img class="w-[341px] h-[354.84px] left-[94.81px] top-[575.50px] absolute" src="https://placehold.co/341x355" />
+        <img class="w-[345px] h-[357.46px] left-[501.82px] top-[575.50px] absolute" src="https://placehold.co/345x357" />
+        <div class="left-[500px] top-[938.50px] absolute text-white text-[25px] font-black font-['Inter']">104 new artwork this week</div>
+        <img class="w-[341px] h-[350.46px] left-[906.79px] top-[578.04px] absolute" src="https://placehold.co/341x350" />
+        <img class="w-[283px] h-[233px] left-[129px] top-[1593.50px] absolute" src="https://placehold.co/283x233" />
+        <div data-svg-wrapper class="left-[122px] top-[1834.50px] absolute">
+        <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14 22.5L22 4.5C23.5913 4.5 25.1174 5.13214 26.2426 6.25736C27.3679 7.38258 28 8.9087 28 10.5V18.5H39.32C39.8998 18.4934 40.4741 18.613 41.0031 18.8504C41.5322 19.0879 42.0032 19.4375 42.3837 19.875C42.7642 20.3126 43.045 20.8276 43.2067 21.3845C43.3683 21.9414 43.407 22.5267 43.32 23.1L40.56 41.1C40.4154 42.0538 39.9309 42.9232 39.1958 43.548C38.4608 44.1728 37.5247 44.5109 36.56 44.5H14M14 22.5V44.5M14 22.5H8C6.93913 22.5 5.92172 22.9214 5.17157 23.6716C4.42143 24.4217 4 25.4391 4 26.5V40.5C4 41.5609 4.42143 42.5783 5.17157 43.3284C5.92172 44.0786 6.93913 44.5 8 44.5H14" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </div>
+        <div data-svg-wrapper class="left-[184px] top-[1838.50px] absolute">
+        <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M34.0001 26.5L26.0001 44.5C24.4088 44.5 22.8826 43.8679 21.7574 42.7426C20.6322 41.6174 20.0001 40.0913 20.0001 38.5V30.5H8.68006C8.10025 30.5066 7.52593 30.387 6.99692 30.1496C6.4679 29.9121 5.99683 29.5625 5.61634 29.125C5.23586 28.6874 4.95505 28.1723 4.79338 27.6155C4.63171 27.0586 4.59305 26.4733 4.68006 25.9L7.44006 7.89999C7.58471 6.94618 8.06919 6.07678 8.80425 5.45198C9.53931 4.82718 10.4754 4.48909 11.4401 4.49999H34.0001M34.0001 26.5V4.49999M34.0001 26.5H39.3401C40.472 26.52 41.5719 26.1237 42.4309 25.3864C43.2899 24.649 43.8483 23.6219 44.0001 22.5V8.49999C43.8483 7.37811 43.2899 6.35099 42.4309 5.61363C41.5719 4.87626 40.472 4.47997 39.3401 4.49999H34.0001" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </div>
+        <div data-svg-wrapper class="left-[357px] top-[1834.50px] absolute">
+        <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M46 6.50009C44.0848 7.85105 41.9642 8.88431 39.72 9.56009C38.5155 8.17511 36.9147 7.19348 35.1341 6.74794C33.3535 6.30241 31.479 6.41448 29.7642 7.069C28.0493 7.72351 26.5769 8.88889 25.546 10.4075C24.515 11.9262 23.9754 13.7248 24 15.5601V17.5601C20.4853 17.6512 17.0025 16.8717 13.862 15.291C10.7215 13.7103 8.02063 11.3774 6 8.50009C6 8.50009 -2 26.5001 16 34.5001C11.8811 37.296 6.97431 38.698 2 38.5001C20 48.5001 42 38.5001 42 15.5001C41.9982 14.943 41.9446 14.3873 41.84 13.8401C43.8812 11.8271 45.3217 9.28552 46 6.50009Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </div>
+        <div class="w-[1233px] pt-4 left-[133px] top-[158px] absolute justify-start items-center gap-3 inline-flex">
+          <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+            <div class="self-stretch text-white text-[28px] font-bold font-['Roboto'] leading-normal">Explore Categories</div>
+          </div>
+        </div>
+        <div class="w-[393px] h-[34px] left-[433px] top-[1740px] absolute text-[#ababab] text-xl font-black font-['Inter']">1,151 find this review helpful</div>
+        <div class="w-[393px] h-[34px] left-[433px] top-[1772px] absolute text-[#ababab] text-xl font-black font-['Inter']">620 find this review funny</div>
+        <div class="w-[393px] h-[34px] left-[428px] top-[1609px] absolute text-[#ababab] text-xl font-black font-['Inter']">Nioh 2 - the complete edition</div>
+        <div class="w-[393px] h-[34px] left-[129px] top-[1530px] absolute text-white text-[28px] font-black font-['Roboto']">Recommended </div>
+        <div class="w-[393px] h-[74px] left-[93px] top-[326px] absolute text-white text-[28px] font-black font-['Roboto']">Find hubs,poeples</div>
+        <div class="w-[393px] h-[74px] left-[905px] top-[942px] absolute text-white text-[28px] font-black font-['Inter']">1,151 new   screenshots<br/> this week</div>
+        <div class="w-[859px] h-[54px] left-[105px] top-[101px] absolute text-white text-[28px] font-black font-['Roboto'] leading-normal">COMMUNITY FORUM</div>
+        <img class="w-[37.73px] h-[25px] left-[164px] top-[1201px] absolute" src="https://placehold.co/38x25" />
+        <div class="w-[218px] h-[42px] left-[217px] top-[1395px] absolute text-white text-[22px] font-medium font-['Roboto'] [text-shadow:_0px_4px_4px_rgb(0_0_0_/_0.25)]">Indie Games</div>
+        <img class="w-[37.73px] h-[25px] left-[164px] top-[1397px] absolute" src="https://placehold.co/38x25" />
+        <div class="w-[218px] h-[42px] left-[217px] top-[1299px] absolute text-white text-[22px] font-medium font-['Roboto'] [text-shadow:_0px_4px_4px_rgb(0_0_0_/_0.25)]">Hot Deals</div>
+        <img class="w-[37.73px] h-[25px] left-[164px] top-[1299px] absolute" src="https://placehold.co/38x25" />
+        <div class="w-[404px] h-[0px] left-[171px] top-[1275px] absolute">
+          <div class="h-3 pl-0.5 py-1 left-0 top-[-6px] absolute flex-col justify-center items-start inline-flex">
+            <div class="self-stretch h-1 bg-[#e8def8] rounded-lg"></div>
+          </div>
+        </div>
+        <div class="w-[404px] h-[0px] left-[171px] top-[1369px] absolute">
+          <div class="h-3 pl-0.5 py-1 left-0 top-[-6px] absolute flex-col justify-center items-start inline-flex">
+            <div class="self-stretch h-1 bg-[#e8def8] rounded-lg"></div>
+          </div>
+        </div>
+        <div class="w-[1440px] h-[63px] left-0 top-[2973px] absolute bg-[#757575]"></div>
+        <div class="w-[1440px] h-[63px] left-0 top-[2973px] absolute bg-[#757575]"></div>
+        <div data-svg-wrapper class="left-[118.15px] top-[1734.38px] absolute">
+        <svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" d="M0.152832 8.23873C0.152832 3.90097 5.20834 0.384521 11.4446 0.384521C17.6809 0.384521 22.7364 3.90097 22.7364 8.23873C22.7364 12.5765 17.6809 16.0929 11.4446 16.0929C5.20834 16.0929 0.152832 12.5765 0.152832 8.23873Z" fill="white"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4452 4.0498C9.80965 4.0498 9.60439 4.05478 8.962 4.07511C8.32087 4.09553 7.88325 4.16614 7.50033 4.26972C7.10423 4.37672 6.76823 4.51984 6.43349 4.75276C6.0985 4.9856 5.89273 5.21931 5.73841 5.49473C5.58911 5.76117 5.48748 6.06565 5.45862 6.51143C5.42989 6.95825 5.42236 7.10111 5.42236 8.23876C5.42236 9.37641 5.42964 9.51874 5.45875 9.96557C5.48823 10.4115 5.58973 10.7159 5.73854 10.9823C5.89248 11.2578 6.09825 11.4915 6.43311 11.7243C6.76773 11.9573 7.10373 12.1008 7.49957 12.2078C7.88275 12.3114 8.32049 12.382 8.9615 12.4024C9.60388 12.4227 9.80902 12.4277 11.4445 12.4277C13.0802 12.4277 13.2848 12.4227 13.9272 12.4024C14.5683 12.382 15.0064 12.3114 15.3896 12.2078C15.7856 12.1008 16.1211 11.9573 16.4557 11.7243C16.7907 11.4915 16.9964 11.2578 17.1508 10.9823C17.2988 10.7159 17.4004 10.4114 17.4306 9.96565C17.4594 9.51883 17.4669 9.37641 17.4669 8.23876C17.4669 7.10111 17.4594 6.95833 17.4306 6.51151C17.4004 6.06556 17.2988 5.76117 17.1508 5.49482C16.9964 5.21931 16.7907 4.9856 16.4557 4.75276C16.1207 4.51975 15.7857 4.37663 15.3892 4.26972C15.0053 4.16614 14.5674 4.09553 13.9263 4.07511C13.2839 4.05478 13.0794 4.0498 11.4433 4.0498H11.4452ZM10.9049 4.80468C11.0653 4.8045 11.2442 4.80468 11.4452 4.80468C13.0532 4.80468 13.2437 4.80869 13.8787 4.82876C14.4659 4.84744 14.7846 4.91568 14.9969 4.97302C15.2779 5.04895 15.4783 5.13971 15.6889 5.28632C15.8997 5.43293 16.0302 5.57256 16.1396 5.76805C16.222 5.91554 16.3203 6.1372 16.347 6.54562C16.3759 6.98721 16.3821 7.11986 16.3821 8.23779C16.3821 9.35571 16.3759 9.48836 16.347 9.92995C16.3202 10.3384 16.222 10.56 16.1396 10.7075C16.0305 10.903 15.8997 11.0422 15.6889 11.1887C15.4782 11.3353 15.278 11.4261 14.9969 11.502C14.7848 11.5596 14.4659 11.6277 13.8787 11.6464C13.2439 11.6664 13.0532 11.6708 11.4452 11.6708C9.8371 11.6708 9.64652 11.6664 9.01166 11.6464C8.42448 11.6275 8.1058 11.5593 7.89338 11.5019C7.61234 11.426 7.4116 11.3353 7.20081 11.1886C6.99003 11.042 6.85955 10.9027 6.75014 10.7072C6.66771 10.5597 6.56947 10.338 6.54275 9.9296C6.51389 9.48801 6.50812 9.35536 6.50812 8.23674C6.50812 7.11811 6.51389 6.98616 6.54275 6.54458C6.5696 6.13615 6.66771 5.91449 6.75014 5.76683C6.8593 5.57134 6.99003 5.43171 7.20081 5.2851C7.4116 5.13848 7.61234 5.04772 7.89338 4.97162C8.10567 4.91403 8.42448 4.84596 9.01166 4.82719C9.56722 4.80974 9.78252 4.8045 10.9049 4.80363V4.80468ZM14.6599 5.50022C14.2609 5.50022 13.9372 5.72511 13.9372 6.00272C13.9372 6.28024 14.2609 6.50539 14.6599 6.50539C15.0589 6.50539 15.3826 6.28024 15.3826 6.00272C15.3826 5.7252 15.0589 5.50022 14.6599 5.50022ZM11.4452 6.08754C9.73726 6.08754 8.3525 7.05074 8.3525 8.23875C8.3525 9.42675 9.73726 10.3895 11.4452 10.3895C13.1532 10.3895 14.5375 9.42675 14.5375 8.23875C14.5375 7.05074 13.1532 6.08754 11.4452 6.08754ZM11.4452 6.84243C12.5538 6.84243 13.4527 7.46754 13.4527 8.23875C13.4527 9.00986 12.5538 9.63506 11.4452 9.63506C10.3365 9.63506 9.43775 9.00986 9.43775 8.23875C9.43775 7.46754 10.3365 6.84243 11.4452 6.84243Z" fill="white"/>
+        </svg>
+        </div>
+        <div data-svg-wrapper class="left-[152.03px] top-[1734.38px] absolute">
+        <svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" d="M0.027832 8.23873C0.027832 3.90097 5.08334 0.384521 11.3196 0.384521C17.5559 0.384521 22.6114 3.90097 22.6114 8.23873C22.6114 12.5765 17.5559 16.0929 11.3196 16.0929C5.08334 16.0929 0.027832 12.5765 0.027832 8.23873Z" fill="white"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3419 8.23291C17.3419 8.51619 17.3005 8.79909 17.219 9.07485C17.1396 9.34405 17.022 9.60835 16.8679 9.861C16.7174 10.1092 16.5306 10.3484 16.3124 10.5714C16.0975 10.793 15.8498 11.0009 15.5778 11.1905C15.3052 11.3792 15.0053 11.551 14.6868 11.7011C14.3651 11.8518 14.0207 11.9815 13.6637 12.0867C13.3 12.1934 12.9191 12.2751 12.5324 12.3302C12.1354 12.387 11.7272 12.416 11.3194 12.416C10.9112 12.416 10.503 12.387 10.1066 12.3302C9.71935 12.2751 9.33852 12.1934 8.97504 12.0867C8.61805 11.9815 8.27338 11.8518 7.95167 11.7011C7.63319 11.551 7.33324 11.3792 7.06122 11.1905C6.78892 11.0009 6.5413 10.793 6.32604 10.5714C6.10901 10.3484 5.92197 10.1092 5.77083 9.861C5.61671 9.60835 5.49881 9.34404 5.41911 9.07485C5.33854 8.79909 5.29736 8.51619 5.29736 8.23291C5.29736 7.94941 5.33852 7.66591 5.41914 7.39076C5.49883 7.12155 5.61674 6.85684 5.77085 6.6046C5.92199 6.35623 6.10904 6.11685 6.32606 5.8938C6.54132 5.67199 6.78894 5.46446 7.06124 5.2747C7.33326 5.08597 7.63322 4.91461 7.9517 4.76469C8.2734 4.61333 8.61807 4.48365 8.97507 4.37825C9.33854 4.2714 9.71935 4.18951 10.1067 4.13478C10.5031 4.07841 10.9112 4.0498 11.3194 4.0498C11.7273 4.0498 12.1354 4.07841 12.5324 4.13478C12.9191 4.18952 13.3 4.27142 13.6637 4.37825C14.0207 4.48363 14.3651 4.61333 14.6868 4.76469C15.0053 4.91461 15.3053 5.08597 15.5778 5.2747C15.8499 5.46446 16.0975 5.67199 16.3124 5.8938C16.5306 6.11685 16.7174 6.35625 16.8679 6.6046C17.022 6.85684 17.1396 7.12155 17.219 7.39076C17.3005 7.66591 17.3419 7.94941 17.3419 8.23291ZM9.12499 5.00182C7.69078 5.47223 6.62036 6.39013 6.28658 7.49637C6.42217 7.49718 8.56537 7.51598 11.0347 7.06028C10.1445 5.9618 9.19351 5.06536 9.12499 5.00182ZM11.4608 7.61035C8.81268 8.161 6.27159 8.12138 6.18044 8.11894C6.17895 8.15733 6.17631 8.19449 6.17631 8.2329C6.17631 9.15059 6.67476 9.98721 7.49405 10.6198C7.49228 10.6179 8.89973 8.88365 11.6752 8.26028C11.7422 8.24476 11.8105 8.23086 11.8781 8.21738C11.749 8.01437 11.6081 7.81093 11.4608 7.61035ZM14.7159 5.55188C13.8104 4.99732 12.6215 4.66094 11.3194 4.66094C10.9015 4.66094 10.496 4.69608 10.1075 4.76102C10.1845 4.83293 11.1506 5.72305 12.0301 6.84479C13.9707 6.33948 14.7032 5.56495 14.7159 5.55188ZM12.2287 8.8093C12.2172 8.81194 12.2057 8.81422 12.1946 8.81706C9.16007 9.55182 8.16912 11.0326 8.1584 11.0487C9.03151 11.5203 10.1266 11.8049 11.3194 11.8049C12.0316 11.8049 12.71 11.7041 13.3273 11.5218C13.2511 11.2097 12.9524 10.1157 12.2287 8.8093ZM14.1933 11.1954C15.3481 10.6541 16.1683 9.79463 16.3971 8.79907C16.2912 8.77538 14.8523 8.45899 13.1923 8.64385C13.8669 9.93147 14.141 10.9801 14.1933 11.1954ZM12.426 7.37708C12.5454 7.54743 12.661 7.72081 12.7677 7.89506C12.8056 7.95757 12.8427 8.01885 12.8789 8.08012C14.6456 7.9257 16.3862 8.1855 16.4607 8.19611C16.4489 7.3493 16.0128 6.57211 15.2911 5.96366C15.2814 5.97323 14.4566 6.80108 12.426 7.37708Z" fill="white"/>
+        </svg>
+        </div>
+        <div data-svg-wrapper class="left-[185.90px] top-[1734.38px] absolute">
+        <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" d="M0.903809 8.23873C0.903809 3.90097 5.95932 0.384521 12.1956 0.384521C18.4319 0.384521 23.4874 3.90097 23.4874 8.23873C23.4874 12.5765 18.4319 16.0929 12.1956 16.0929C5.95932 16.0929 0.903809 12.5765 0.903809 8.23873Z" fill="white"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.8575 6.76864L11.8812 7.04041L11.4863 7.00714C10.0488 6.87957 8.79294 6.44695 7.72666 5.72037L7.20537 5.35986L7.0711 5.62608C6.78676 6.21955 6.96842 6.84629 7.5608 7.26782C7.87673 7.50077 7.80565 7.53404 7.26066 7.39538C7.0711 7.35101 6.90523 7.31773 6.88943 7.33437C6.83415 7.3732 7.02371 7.87792 7.17378 8.07759C7.37913 8.35491 7.79775 8.62668 8.25585 8.78753L8.64287 8.91509L8.18477 8.92064C7.74246 8.92064 7.72666 8.92619 7.77405 9.04266C7.93202 9.40318 8.55599 9.78588 9.25105 9.95227L9.74075 10.0687L9.31424 10.2462C8.68237 10.5014 7.93992 10.6456 7.19747 10.6567C6.84204 10.6622 6.5498 10.6844 6.5498 10.701C6.5498 10.7565 7.51341 11.0671 8.07419 11.1891C9.75655 11.5496 11.7548 11.3943 13.2555 10.7787C14.3218 10.3405 15.3881 9.46973 15.8857 8.62668C16.1542 8.17742 16.4228 7.35656 16.4228 6.96276C16.4228 6.70763 16.4465 6.67435 16.8888 6.3693C17.1494 6.19182 17.3943 5.99769 17.4417 5.94223C17.5206 5.83685 17.5127 5.83685 17.1099 5.93114C16.4386 6.09753 16.3438 6.07534 16.6755 5.82575C16.9204 5.64827 17.2126 5.32658 17.2126 5.23229C17.2126 5.21565 17.0941 5.24338 16.9599 5.2933C16.8177 5.34876 16.5018 5.43196 16.2648 5.48188L15.8383 5.57617L15.4513 5.39314C15.238 5.2933 14.9379 5.18237 14.7799 5.14909C14.3771 5.07145 13.761 5.08254 13.3977 5.17128C12.4104 5.42087 11.7864 6.06425 11.8575 6.76864Z" fill="white"/>
+        </svg>
+        </div>
+        <div data-svg-wrapper class="left-[219.54px] top-[1734.38px] absolute">
+        <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" d="M0.541504 8.23873C0.541504 3.90097 5.59701 0.384521 11.8333 0.384521C18.0696 0.384521 23.1251 3.90097 23.1251 8.23873C23.1251 12.5765 18.0696 16.0929 11.8333 16.0929C5.59701 16.0929 0.541504 12.5765 0.541504 8.23873Z" fill="white"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.539 5.53866C17.0573 5.63758 17.4654 5.92904 17.6039 6.29917C17.8556 6.96999 17.8556 8.36967 17.8556 8.36967C17.8556 8.36967 17.8556 9.76929 17.6039 10.4402C17.4654 10.8103 17.0573 11.1018 16.539 11.2007C15.5998 11.3804 11.8333 11.3804 11.8333 11.3804C11.8333 11.3804 8.06686 11.3804 7.12759 11.2007C6.60933 11.1018 6.20118 10.8103 6.06267 10.4402C5.81104 9.76929 5.81104 8.36967 5.81104 8.36967C5.81104 8.36967 5.81104 6.96999 6.06267 6.29917C6.20118 5.92904 6.60933 5.63758 7.12759 5.53866C8.06686 5.35889 11.8333 5.35889 11.8333 5.35889C11.8333 5.35889 15.5998 5.35889 16.539 5.53866ZM10.7042 7.19151V9.80958L13.7153 8.50059L10.7042 7.19151Z" fill="white"/>
+        </svg>
+        </div>
+        <div class="w-[106px] h-[30px] left-[191px] top-[3106px] absolute text-white text-2xl font-black font-['Roboto'] leading-normal">Gamify</div>
+        <img class="w-[36.50px] h-[17.63px] left-[115.11px] top-[1658.22px] absolute" src="https://placehold.co/36x18" />
+        <div class="w-[103px] left-[160px] top-[3150px] absolute"><span class="text-white text-[10px] font-black font-['Roboto'] leading-normal">Copyright </span><span class="text-white text-[10px] font-normal font-['Roboto'] leading-normal">© 2020 <br/>All rights reserved</span></div>
+        <div class="w-[342px] h-[553.57px] left-[786px] top-[1144.43px] absolute">
+          <div class="w-[342px] h-[54px] left-0 top-[499.57px] absolute bg-[#89939e]/50 rounded-[33px]"></div>
+          <div class="w-[178.23px] h-[42px] left-[120.55px] top-0 absolute text-white text-xl font-medium font-['Roboto'] leading-[52.90px]">Join Community</div>
+        </div>
+        <div class="w-[342px] h-[556.70px] left-[786px] top-[1211px] absolute">
+          <div class="w-[342px] h-[53.94px] left-0 top-[502.76px] absolute bg-white rounded-[33px]"></div>
+          <div class="w-[178.23px] h-[41.95px] left-[150.55px] top-0 absolute text-black text-[22px] font-medium font-['Roboto'] leading-[52.90px]">Explore</div>
+        </div>
+        <img class="w-[283px] h-[233px] left-[133px] top-[1953px] absolute" src="https://placehold.co/283x233" />
+        <div data-svg-wrapper class="left-[126px] top-[2194px] absolute">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14 22L22 4C23.5913 4 25.1174 4.63214 26.2426 5.75736C27.3679 6.88258 28 8.4087 28 10V18H39.32C39.8998 17.9934 40.4741 18.113 41.0031 18.3504C41.5322 18.5879 42.0032 18.9375 42.3837 19.375C42.7642 19.8126 43.045 20.3276 43.2067 20.8845C43.3683 21.4414 43.407 22.0267 43.32 22.6L40.56 40.6C40.4154 41.5538 39.9309 42.4232 39.1958 43.048C38.4608 43.6728 37.5247 44.0109 36.56 44H14M14 22V44M14 22H8C6.93913 22 5.92172 22.4214 5.17157 23.1716C4.42143 23.9217 4 24.9391 4 26V40C4 41.0609 4.42143 42.0783 5.17157 42.8284C5.92172 43.5786 6.93913 44 8 44H14" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </div>
+        <div data-svg-wrapper class="left-[188px] top-[2198px] absolute">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M34.0001 26L26.0001 44C24.4088 44 22.8826 43.3679 21.7574 42.2426C20.6322 41.1174 20.0001 39.5913 20.0001 38V30H8.68006C8.10025 30.0066 7.52593 29.887 6.99692 29.6496C6.4679 29.4121 5.99683 29.0625 5.61634 28.625C5.23586 28.1874 4.95505 27.6723 4.79338 27.1155C4.63171 26.5586 4.59305 25.9733 4.68006 25.4L7.44006 7.39999C7.58471 6.44618 8.06919 5.57678 8.80425 4.95198C9.53931 4.32718 10.4754 3.98909 11.4401 3.99999H34.0001M34.0001 26V3.99999M34.0001 26H39.3401C40.472 26.02 41.5719 25.6237 42.4309 24.8864C43.2899 24.149 43.8483 23.1219 44.0001 22V7.99999C43.8483 6.87811 43.2899 5.85099 42.4309 5.11363C41.5719 4.37626 40.472 3.97997 39.3401 3.99999H34.0001" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </div>
+        <div data-svg-wrapper class="left-[361px] top-[2194px] absolute">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M46 6.00009C44.0848 7.35105 41.9642 8.38431 39.72 9.06009C38.5155 7.67511 36.9147 6.69348 35.1341 6.24794C33.3535 5.80241 31.479 5.91448 29.7642 6.569C28.0493 7.22351 26.5769 8.38889 25.546 9.90753C24.515 11.4262 23.9754 13.2248 24 15.0601V17.0601C20.4853 17.1512 17.0025 16.3717 13.862 14.791C10.7215 13.2103 8.02063 10.8774 6 8.00009C6 8.00009 -2 26.0001 16 34.0001C11.8811 36.796 6.97431 38.198 2 38.0001C20 48.0001 42 38.0001 42 15.0001C41.9982 14.443 41.9446 13.8873 41.84 13.3401C43.8812 11.3271 45.3217 8.78552 46 6.00009Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </div>
+        <div class="w-[393px] h-[34px] left-[437px] top-[2099.50px] absolute text-[#ababab] text-xl font-black font-['Inter']">820 find this review helpful</div>
+        <div class="w-[393px] h-[34px] left-[437px] top-[2131.50px] absolute text-[#ababab] text-xl font-black font-['Inter']">230  find this review funny</div>
+        <div class="w-[393px] h-[34px] left-[432px] top-[1968.50px] absolute text-[#ababab] text-xl font-black font-['Inter']">pubg- battleground </div>
+        <div class="w-[342px] h-[556.57px] left-[790px] top-[1500.93px] absolute">
+          <div class="w-[342px] h-[54px] left-0 top-[502.57px] absolute bg-[#89939e]/50 rounded-[33px]"></div>
+          <div class="w-[178.23px] h-[42px] left-[118.55px] top-0 absolute text-white text-xl font-medium font-['Roboto'] leading-[52.90px]">Join Community</div>
+        </div>
+        <div class="w-[342px] h-[558.70px] left-[790px] top-[1568.50px] absolute">
+          <div class="w-[342px] h-[53.94px] left-0 top-[504.76px] absolute bg-white rounded-[33px]"></div>
+          <div class="w-[178.23px] h-[41.95px] left-[152.55px] top-0 absolute text-black text-[22px] font-medium font-['Roboto'] leading-[52.90px]">Explore</div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      
+
+    <footer class="bg-gray-800 text-white py-8 sm:py-12 mt-8">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <p class="text-sm mb-2">Copyright © 2020 Landify UI Kit.</p>
+                    <p class="text-sm mb-4">All rights reserved</p>
+                    
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-white hover:text-gray-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-white hover:text-gray-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-white hover:text-gray-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-white hover:text-gray-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <img src="./images/logo.png" alt="Company Logo" class="h-10 w-10 sm:h-12 sm:w-12 rounded-full border-2 border-white">
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-medium mb-3">Company</h3>
+                    <ul>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">About us</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Contact us</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Pricing</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Testimonials</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-medium mb-3">Support</h3>
+                    <ul>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Help center</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Terms of service</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Legal</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Privacy policy</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Status</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-medium mb-3">Stay up to date</h3>
+                    <div class="flex">
+                        <input type="email" placeholder="Your email address" class="bg-gray-700 text-white px-4 py-2 rounded-l text-sm w-full">
+                        <button class="bg-gray-600 text-white px-2 py-2 rounded-r">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const navButtons = document.getElementById('nav-buttons');
+            navButtons.classList.toggle('hidden');
+            navButtons.classList.toggle('flex');
+            navButtons.classList.toggle('flex-col');
+            navButtons.classList.toggle('items-center');
+        });
+    </script>
+</body>
+</html>
