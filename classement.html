@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gamify - Classement</title>
-    <link href="../public/style.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- <link href="../public/style.css" rel="stylesheet"> -->
 </head>
 <body class="bg-gray-900 text-white">
 
@@ -12,16 +14,22 @@
         <nav class="bg-gray-100 shadow-sm p-4">
             <div class="container mx-auto flex justify-between items-center">
               <div class="flex items-center">
-                <img src="../images/logo.png" alt="Logo" class="w-10 h-10 object-cover">
+                <img src="./images/logo.png" alt="Logo" class="w-10 h-10 object-cover">
               </div>
               
               
-              <div class="hidden md:flex space-x-1">
-                <a href="#" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300 transition duration-300">Bibliothèque</a>
-                <a href="#" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200 transition duration-300">Communauté</a>
-                <a href="#" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200 transition duration-300">Recompense</a>
-                <a href="#" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200 transition duration-300">Promotion</a>
-                <a href="#" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300 transition duration-300">Assistance</a>
+             
+            <div class="hidden md:flex space-x-1">
+                <a href="./jeux.html" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300 transition duration-300">Bibliothèque</a>
+                <a href="./recompense.html" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200 transition duration-300">Recompense</a>
+                <a href="./page1.html" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200 transition duration-300">Promotion</a>
+                <a href="./leaderboard.html" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300 transition duration-300">Leaderboard</a>
+                <a href="./Achievements.html" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300 transition duration-300">Achievemnts</a>
+                <a href="./classement.html" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300 transition duration-300">classement</a>
+                <a href="./public/page6.html" class="px-4 py-2 text-gray-800 rounded-md font-medium hover:bg-gray-200 transition duration-300">Communauté</a>
+                <a href="./public/claude.html" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300 transition duration-300">Collection</a>
+    
+    
               </div>
               
               <div class="flex items-center space-x-4">
@@ -63,7 +71,7 @@
         <div class="absolute inset-0 bg-black opacity-50 flex items-center justify-center">
             <button class="text-white text-6xl">▶</button>
         </div>
-        <img src="../images/banneri.png" alt="Banner" class="w-full max-h-[300px] object-cover" />
+        <img src="./images/banneri.png" alt="Banner" class="w-full max-h-[300px] object-cover" />
         <input type="text" class="mt-4 w-3/5 p-3 text-lg rounded-xl border-none text-center" placeholder="Search...">
     </section>
 
@@ -71,63 +79,63 @@
         <h2 class="text-3xl mb-5">Meilleur score</h2>
         <div class="space-y-4">
             <div class="flex items-center justify-between bg-gray-700 p-4 rounded-lg">
-                <img src="../images/player1.png" alt="Osvaldo Rios" class="w-24 h-24 rounded-lg mr-4">
+                <img src="./images/player1.png" alt="Osvaldo Rios" class="w-24 h-24 rounded-lg mr-4">
                 <div class="flex-grow text-left">
                     <h3 class="text-xl">Osvaldo Rios</h3>
                     <p>Score: 15000 points</p>
                     <p>Badges: Maîtrise Totale</p>
                 </div>
-                <img src="../images/badge1.png" alt="Badge" class="w-16 h-16">
+                <img src="./images/badge1.png" alt="Badge" class="w-16 h-16">
             </div>
 
             <div class="flex items-center justify-between bg-gray-700 p-4 rounded-lg">
-                <img src="../images/player2.png" alt="Marcos Nids" class="w-24 h-24 rounded-lg mr-4">
+                <img src="./images/player2.png" alt="Marcos Nids" class="w-24 h-24 rounded-lg mr-4">
                 <div class="flex-grow text-left">
                     <h3 class="text-xl">Marcos Nids</h3>
                     <p>Score: 14950 points</p>
                     <p>Badges: Immortel</p>
                 </div>
-                <img src="../images/badge1.png" alt="Badge" class="w-16 h-16">
+                <img src="./images/badge1.png" alt="Badge" class="w-16 h-16">
             </div>
 
             <div class="flex items-center justify-between bg-gray-700 p-4 rounded-lg">
-                <img src="../images/player3.png" alt="Julien Show" class="w-24 h-24 rounded-lg mr-4">
+                <img src="./images/player3.png" alt="Julien Show" class="w-24 h-24 rounded-lg mr-4">
                 <div class="flex-grow text-left">
                     <h3 class="text-xl">Julien Show</h3>
                     <p>Score: 14550 points</p>
                     <p>Badges:</p>
                 </div>
-                <img src="../images/badge2.png" alt="Badge" class="w-16 h-16">
+                <img src="./images/badge2.png" alt="Badge" class="w-16 h-16">
             </div>
 
             <div class="flex items-center justify-between bg-gray-700 p-4 rounded-lg">
-                <img src="../images/player4.png" alt="Mark Lane" class="w-24 h-24 rounded-lg mr-4">
+                <img src="./images/player4.png" alt="Mark Lane" class="w-24 h-24 rounded-lg mr-4">
                 <div class="flex-grow text-left">
                     <h3 class="text-xl">Mark Lane</h3>
                     <p>Score: 13950 points</p>
                     <p>Badges: Master-set</p>
                 </div>
-                <img src="../images/badge2.png" alt="Badge" class="w-16 h-16">
+                <img src="./images/badge2.png" alt="Badge" class="w-16 h-16">
             </div>
 
             <div class="flex items-center justify-between bg-gray-700 p-4 rounded-lg">
-                <img src="../images/player5.png" alt="Jhon Chong" class="w-24 h-24 rounded-lg mr-4">
+                <img src="./images/player5.png" alt="Jhon Chong" class="w-24 h-24 rounded-lg mr-4">
                 <div class="flex-grow text-left">
                     <h3 class="text-xl">Jhon Chong</h3>
                     <p>Score: 13000 points</p>
                     <p>Badges: Master-set</p>
                 </div>
-                <img src="../images/badge3.png" alt="Badge" class="w-16 h-16">
+                <img src="./images/badge3.png" alt="Badge" class="w-16 h-16">
             </div>
 
             <div class="flex items-center justify-between bg-gray-700 p-4 rounded-lg">
-                <img src="../images/player6.png" alt="Sid Kobi" class="w-24 h-24 rounded-lg mr-4">
+                <img src="./images/player6.png" alt="Sid Kobi" class="w-24 h-24 rounded-lg mr-4">
                 <div class="flex-grow text-left">
                     <h3 class="text-xl">Sid Kobi</h3>
                     <p>Score: 12950 points</p>
                     <p>Badges: Master-set</p>
                 </div>
-                <img src="../images/badge3.png" alt="Badge" class="w-16 h-16">
+                <img src="./images/badge3.png" alt="Badge" class="w-16 h-16">
             </div>
         </div>
         <button class="mt-5 px-6 py-2 bg-gray-600 rounded-lg text-white">Retour</button>
@@ -164,7 +172,7 @@
                     </div>
                     
                     <div>
-                        <img src="../images/logo.png" alt="Company Logo" class="h-10 w-10 sm:h-12 sm:w-12 rounded-full border-2 border-white">
+                        <img src="./images/logo.png" alt="Company Logo" class="h-10 w-10 sm:h-12 sm:w-12 rounded-full border-2 border-white">
                     </div>
                 </div>
                 
